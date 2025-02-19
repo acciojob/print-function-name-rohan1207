@@ -1,7 +1,6 @@
-function nameOfFunction() {
-    
+window.nameOfFunction = function () {
     alert(arguments.callee.name);
-}
+};
 
+window.nameOfFunction();
 
-nameOfFunction();
